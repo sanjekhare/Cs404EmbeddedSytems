@@ -1,3 +1,16 @@
+# Comment from Mark A. Yoder
+# Got it.  Thanks...
+# I get errors when I compile your code:
+In file included from mmap2.c:10:0:
+beaglebone_gpio.h:1:0: error: unterminated #ifndef
+mmap2.c: In function 'main':
+mmap2.c:70:20: error: 'GPIO_40' undeclared 
+
+Looks like the code is close to working, but not all the way there.
+
+Grade:  15/25
+
+
 To: Prof. Mark A. Yoder
 From: Sanjeev Khare
 Date: 5/10/15
