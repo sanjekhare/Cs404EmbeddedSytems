@@ -4,10 +4,27 @@
 *  To: Prof Mark A. Yoder
 */
 
+Device Overlay
+
+1. export files to bash variables like slots etc.
+2. ./findGPIO.js to find the offset address of P9_42, it was 0x164.
+3. copied DM-gpio-Test.dts.
+4. edited it so the that pin9_42 is pulled up input pin. 
+5. compiled with dtc to make dtb0 file
+6. moved it to lib/firmware
+7. activated it using  echo SK-gpio-set > $SLOTS.
+8. Checked it using findGPIO
+9. Removed it using -7> $SLOTS.
+
+
+|-------------------------------------------|
 Current stable version is Debian 8, Jessie
 Current testing version is Strech
-Current unstable version is Sid
+Current unstable version is Sid.
 
+
+
+|-------------------------------------------|
 Currently 36650 packages are installed.
 I used apt-cache (as shown in the class) instead of apt-get pkgnames (as written on the HW sheet).
 
