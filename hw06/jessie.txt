@@ -15,5 +15,8 @@ Due connectivity error htop could not be installed.
 Ran apt-get update
 Tried sudo apt-get --fix-missing install htop
 Again it got stuck at connecting to debian server.
+It gave an error 
+E: Internal Error, ordering was unable to handle the media swap
+
 
 Note: Screenshots of various step are in the folder.

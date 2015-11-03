@@ -1,7 +1,19 @@
+/* This a report of a embedded system homework about device overlays
+*  From: Sanjeev Khare
+*  Date: 2/11/2015
+*  To: Prof Mark A. Yoder
+*/
+
 Current stable version is Debian 8, Jessie
 Current testing version is Strech
 Current unstable version is Sid
 
 Currently 36650 packages are installed.
+I used apt-cache (as shown in the class) instead of apt-get pkgnames (as written on the HW sheet).
 
-Note: Screenshots of various step are provided in the folder.
+Due connectivity error htop could not be installed.
+Ran apt-get update
+Tried sudo apt-get --fix-missing install htop
+Again it got stuck at connecting to debian server.
+
+Note: Screenshots of various step are in the folder.
