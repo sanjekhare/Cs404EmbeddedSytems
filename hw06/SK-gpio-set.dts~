@@ -26,7 +26,7 @@
                   pinctrl_test: DM_GPIO_Test_Pins {
 			pinctrl-single,pins = <
 
-				0x164 0x37  /* P9_42 60 OUTPUT MODE7 - The LED Output */
+				0x164 0x37  /* P9_12 60 OUTPUT MODE7 - The LED Output */
 				                       
                                /* OUTPUT  GPIO(mode7) 0x07 pulldown, 0x17 pullup, 0x?f no pullup/down */
 			       /* INPUT   GPIO(mode7) 0x27 pulldown, 0x37 pullup, 0x?f no pullup/down */
